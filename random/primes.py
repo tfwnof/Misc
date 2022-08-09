@@ -1,6 +1,6 @@
 n=i=1
 l=p=[]
-while n<=1000:
+while n<=1000: #finding prime numbers up to 1000
     while i<=n:
         if n%i==0:
             l.append(n)
